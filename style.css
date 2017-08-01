@@ -1,28 +1,86 @@
+/*
+Fonts I liked:
+font-family: 'Pacifico', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'VT323', monospace;
+*/
 body {
-  background-color: #ddddff;
-}
-h1 {
-  font-family: serif;
-  text-align: center;
-  color: #060619;
-  border-bottom: solid 2px #060619;
-  padding: 0;
-  width: 200px;
+  background-image: url(galaxy.gif);
 }
 h3 {
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+    border-bottom: 1px solid white;
+    text-indent: 30px;
+}
+.button {
+  background-color: Transparent;
+    border: none;
+    color: #44d655;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    float: left;
+    font-family: 'VT323', monospace;
+}
+.button:hover {
+    color: #167c22;
+}
+#content {
+  color: white;
+  height: 99%;
+  overflow: hidden;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #cda9f9;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin-top: 150px;
+}
+#header {
+  height:150px;
+  background-image:url(galaxy.gif);
+  width:100%;
+  padding-top: 0px;
+  margin:0px auto;
+  top: 0;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
   text-align: center;
-  color: #060619;
+  position: fixed;
 }
-
+.lightred {
+  color: #f72c2c;
+}
+.lightorange {
+  color: #ff7e1c;
+}
+.lightyellow {
+  color: #ffed2b;
+}
+.lightgreen {
+  color: #32ff2a;
+}
+.lightblue {
+  color: #29f0ff;
+}
+.blue {
+  color: #3a28ff;
+}
+.lightpurple {
+  color: #ff28f4;
+}
+.white {
+  color: white;
+}
 p {
-  font-family: monospace;
-  font-size: 15px;
-  text-indent: 2em;
-  color: #060619;
-}
-
-a {
-  color: #060619;
-  font-family: sans-serif;
-  font-size: 15px;
+  font-family: 'Cookie', cursive;
+  text-indent: 15px;
+  font-size: 20px;
 }
